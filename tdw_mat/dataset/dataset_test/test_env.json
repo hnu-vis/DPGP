@@ -1,0 +1,1041 @@
+[
+  {
+    "scene": "5a",
+    "layout": "0_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 0,
+    "matched_pair_id": 0,
+    "target_filter_classes": [
+      "apple",
+      "burger"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "0_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 0,
+    "matched_pair_id": 0,
+    "target_filter_classes": [
+      "apple",
+      "burger"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "apple",
+        "burger"
+      ]
+    },
+    "expected_coop_target_instances": 3,
+    "coop_all_targets": true
+  },
+  {
+    "scene": "5a",
+    "layout": "0_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 1,
+    "matched_pair_id": 1,
+    "target_filter_classes": [
+      "bread",
+      "burger",
+      "loaf_bread"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "0_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 1,
+    "matched_pair_id": 1,
+    "target_filter_classes": [
+      "bread",
+      "burger",
+      "loaf_bread"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "loaf_bread"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "1_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 2,
+    "matched_pair_id": 2,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread",
+      "loaf_bread"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "1_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 2,
+    "matched_pair_id": 2,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread",
+      "loaf_bread"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "apple"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "1_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 3,
+    "matched_pair_id": 3,
+    "target_filter_classes": [
+      "apple",
+      "banana"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "1_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 3,
+    "matched_pair_id": 3,
+    "target_filter_classes": [
+      "apple",
+      "banana"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "banana"
+      ]
+    },
+    "expected_coop_target_instances": 1,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "2_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 4,
+    "matched_pair_id": 4,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "2_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 4,
+    "matched_pair_id": 4,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "apple",
+        "banana"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "2_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 5,
+    "matched_pair_id": 5,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread",
+      "burger"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "2_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 5,
+    "matched_pair_id": 5,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread",
+      "burger"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "bread"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "0_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 6,
+    "matched_pair_id": 6,
+    "target_filter_classes": [
+      "banana",
+      "loaf_bread"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "0_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 6,
+    "matched_pair_id": 6,
+    "target_filter_classes": [
+      "banana",
+      "loaf_bread"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "banana"
+      ]
+    },
+    "expected_coop_target_instances": 1,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "0_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 7,
+    "matched_pair_id": 7,
+    "target_filter_classes": [
+      "banana",
+      "bread",
+      "orange"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "0_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 7,
+    "matched_pair_id": 7,
+    "target_filter_classes": [
+      "banana",
+      "bread",
+      "orange"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "bread",
+        "orange"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "1_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 8,
+    "matched_pair_id": 8,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread",
+      "loaf_bread"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "1_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 8,
+    "matched_pair_id": 8,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread",
+      "loaf_bread"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "apple",
+        "banana"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "1_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 9,
+    "matched_pair_id": 9,
+    "target_filter_classes": [
+      "apple",
+      "burger"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "1_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 9,
+    "matched_pair_id": 9,
+    "target_filter_classes": [
+      "apple",
+      "burger"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "burger"
+      ]
+    },
+    "expected_coop_target_instances": 1,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "2_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 10,
+    "matched_pair_id": 10,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread",
+      "orange"
+    ],
+    "expected_active_target_instances": 6,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "2_0",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 10,
+    "matched_pair_id": 10,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread",
+      "orange"
+    ],
+    "expected_active_target_instances": 6,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "orange"
+      ]
+    },
+    "expected_coop_target_instances": 3,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "2_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 11,
+    "matched_pair_id": 11,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "2_1",
+    "seed": 2824,
+    "task": "food",
+    "source_episode_id": 11,
+    "matched_pair_id": 11,
+    "target_filter_classes": [
+      "apple",
+      "banana",
+      "bread"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "apple"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "0_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 12,
+    "matched_pair_id": 12,
+    "target_filter_classes": [
+      "iphone",
+      "pen"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "0_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 12,
+    "matched_pair_id": 12,
+    "target_filter_classes": [
+      "iphone",
+      "pen"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "iphone",
+        "pen"
+      ]
+    },
+    "expected_coop_target_instances": 3,
+    "coop_all_targets": true
+  },
+  {
+    "scene": "5a",
+    "layout": "0_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 13,
+    "matched_pair_id": 13,
+    "target_filter_classes": [
+      "lighter",
+      "mouse",
+      "pen",
+      "purse"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "0_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 13,
+    "matched_pair_id": 13,
+    "target_filter_classes": [
+      "lighter",
+      "mouse",
+      "pen",
+      "purse"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "lighter",
+        "mouse"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "1_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 14,
+    "matched_pair_id": 14,
+    "target_filter_classes": [
+      "calculator",
+      "iphone",
+      "lighter"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "1_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 14,
+    "matched_pair_id": 14,
+    "target_filter_classes": [
+      "calculator",
+      "iphone",
+      "lighter"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "iphone"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "1_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 15,
+    "matched_pair_id": 15,
+    "target_filter_classes": [
+      "calculator",
+      "lighter",
+      "pen"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "1_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 15,
+    "matched_pair_id": 15,
+    "target_filter_classes": [
+      "calculator",
+      "lighter",
+      "pen"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "lighter"
+      ]
+    },
+    "expected_coop_target_instances": 1,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "2_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 16,
+    "matched_pair_id": 16,
+    "target_filter_classes": [
+      "iphone",
+      "mouse"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "2_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 16,
+    "matched_pair_id": 16,
+    "target_filter_classes": [
+      "iphone",
+      "mouse"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "iphone"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "5a",
+    "layout": "2_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 17,
+    "matched_pair_id": 17,
+    "target_filter_classes": [
+      "iphone",
+      "lighter",
+      "pen"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "5a",
+    "layout": "2_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 17,
+    "matched_pair_id": 17,
+    "target_filter_classes": [
+      "iphone",
+      "lighter",
+      "pen"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "iphone"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "0_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 18,
+    "matched_pair_id": 18,
+    "target_filter_classes": [
+      "calculator",
+      "lighter",
+      "mouse",
+      "pen"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "0_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 18,
+    "matched_pair_id": 18,
+    "target_filter_classes": [
+      "calculator",
+      "lighter",
+      "mouse",
+      "pen"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "calculator"
+      ]
+    },
+    "expected_coop_target_instances": 1,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "0_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 19,
+    "matched_pair_id": 19,
+    "target_filter_classes": [
+      "calculator",
+      "iphone",
+      "lighter",
+      "mouse"
+    ],
+    "expected_active_target_instances": 6,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "0_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 19,
+    "matched_pair_id": 19,
+    "target_filter_classes": [
+      "calculator",
+      "iphone",
+      "lighter",
+      "mouse"
+    ],
+    "expected_active_target_instances": 6,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "calculator",
+        "lighter"
+      ]
+    },
+    "expected_coop_target_instances": 3,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "1_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 20,
+    "matched_pair_id": 20,
+    "target_filter_classes": [
+      "calculator",
+      "iphone"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "1_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 20,
+    "matched_pair_id": 20,
+    "target_filter_classes": [
+      "calculator",
+      "iphone"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "calculator"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "1_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 21,
+    "matched_pair_id": 21,
+    "target_filter_classes": [
+      "calculator",
+      "lighter",
+      "pen"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "1_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 21,
+    "matched_pair_id": 21,
+    "target_filter_classes": [
+      "calculator",
+      "lighter",
+      "pen"
+    ],
+    "expected_active_target_instances": 5,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "calculator"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "2_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 22,
+    "matched_pair_id": 22,
+    "target_filter_classes": [
+      "calculator",
+      "iphone",
+      "lighter"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "2_0",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 22,
+    "matched_pair_id": 22,
+    "target_filter_classes": [
+      "calculator",
+      "iphone",
+      "lighter"
+    ],
+    "expected_active_target_instances": 3,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "calculator"
+      ]
+    },
+    "expected_coop_target_instances": 1,
+    "coop_all_targets": false
+  },
+  {
+    "scene": "2a",
+    "layout": "2_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 23,
+    "matched_pair_id": 23,
+    "target_filter_classes": [
+      "calculator",
+      "lighter",
+      "pen"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "ordinary",
+    "coop_constraints": {
+      "target_classes": []
+    },
+    "expected_coop_target_instances": 0
+  },
+  {
+    "scene": "2a",
+    "layout": "2_1",
+    "seed": 2824,
+    "task": "stuff",
+    "source_episode_id": 23,
+    "matched_pair_id": 23,
+    "target_filter_classes": [
+      "calculator",
+      "lighter",
+      "pen"
+    ],
+    "expected_active_target_instances": 4,
+    "dataset_note": "matched-pair forced-coop expansion from dataset_test; target counts are after original_dataset_reset_probe container filtering",
+    "task_variant": "coop",
+    "coop_constraints": {
+      "target_classes": [
+        "pen"
+      ]
+    },
+    "expected_coop_target_instances": 2,
+    "coop_all_targets": false
+  }
+]

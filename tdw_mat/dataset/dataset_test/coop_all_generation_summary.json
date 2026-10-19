@@ -1,0 +1,972 @@
+{
+  "source_dataset_dir": "CoELA/tdw_mat/dataset/dataset_test",
+  "dataset_dir": "CoELA/tdw_mat/dataset/dataset_test_coop_all",
+  "source_reset_probe": "CoELA/tdw_mat/results/forced_coop_dataset_validation/original_dataset_reset_probe/validation_records.json",
+  "generation_rule": "For each of the original 24 dataset_test episodes, select target_filter_classes from runtime targets outside containers, then create an ordinary/coop matched pair. No source episode is repeated or dropped. Pair 0 and pair 12 are set to all-coop to include fully cooperative tasks.",
+  "num_source_episodes": 24,
+  "num_pairs": 24,
+  "num_episodes": 48,
+  "active_target_distribution": {
+    "3": 5,
+    "4": 10,
+    "5": 7,
+    "6": 2
+  },
+  "coop_target_distribution": {
+    "1": 6,
+    "2": 14,
+    "3": 4
+  },
+  "coop_all_pair_count": 2,
+  "pair_records": [
+    {
+      "matched_pair_id": 0,
+      "source_episode_id": 0,
+      "ordinary_episode_index": 0,
+      "coop_episode_index": 1,
+      "scene": "5a",
+      "layout": "0_0",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 2,
+        "bread": 2,
+        "burger": 1,
+        "orange": 1
+      },
+      "excluded_in_container": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 1,
+        "orange": 1
+      },
+      "target_filter_classes": [
+        "apple",
+        "burger"
+      ],
+      "active_target_instances": 3,
+      "active_goal_description": {
+        "apple": 2,
+        "burger": 1
+      },
+      "coop_target_classes": [
+        "apple",
+        "burger"
+      ],
+      "coop_target_instances": 3,
+      "coop_goal_description": {
+        "apple": 2,
+        "burger": 1
+      },
+      "coop_all_targets": true
+    },
+    {
+      "matched_pair_id": 1,
+      "source_episode_id": 1,
+      "ordinary_episode_index": 2,
+      "coop_episode_index": 3,
+      "scene": "5a",
+      "layout": "0_1",
+      "task": "food",
+      "usable_after_container_filter": {
+        "bread": 1,
+        "burger": 1,
+        "loaf_bread": 2,
+        "orange": 1
+      },
+      "excluded_in_container": {
+        "apple": 2,
+        "banana": 2,
+        "loaf_bread": 1
+      },
+      "target_filter_classes": [
+        "bread",
+        "burger",
+        "loaf_bread"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "bread": 1,
+        "burger": 1,
+        "loaf_bread": 2
+      },
+      "coop_target_classes": [
+        "loaf_bread"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "loaf_bread": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 2,
+      "source_episode_id": 2,
+      "ordinary_episode_index": 4,
+      "coop_episode_index": 5,
+      "scene": "5a",
+      "layout": "1_0",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 2,
+        "banana": 1,
+        "bread": 1,
+        "loaf_bread": 1,
+        "orange": 1
+      },
+      "excluded_in_container": {
+        "apple": 1,
+        "burger": 1,
+        "loaf_bread": 1,
+        "orange": 1
+      },
+      "target_filter_classes": [
+        "apple",
+        "banana",
+        "bread",
+        "loaf_bread"
+      ],
+      "active_target_instances": 5,
+      "active_goal_description": {
+        "apple": 2,
+        "banana": 1,
+        "bread": 1,
+        "loaf_bread": 1
+      },
+      "coop_target_classes": [
+        "apple"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "apple": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 3,
+      "source_episode_id": 3,
+      "ordinary_episode_index": 6,
+      "coop_episode_index": 7,
+      "scene": "5a",
+      "layout": "1_1",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 3,
+        "banana": 1,
+        "loaf_bread": 1,
+        "orange": 1
+      },
+      "excluded_in_container": {
+        "apple": 1,
+        "bread": 1,
+        "burger": 2
+      },
+      "target_filter_classes": [
+        "apple",
+        "banana"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "apple": 3,
+        "banana": 1
+      },
+      "coop_target_classes": [
+        "banana"
+      ],
+      "coop_target_instances": 1,
+      "coop_goal_description": {
+        "banana": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 4,
+      "source_episode_id": 4,
+      "ordinary_episode_index": 8,
+      "coop_episode_index": 9,
+      "scene": "5a",
+      "layout": "2_0",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 1,
+        "burger": 2,
+        "loaf_bread": 1
+      },
+      "excluded_in_container": {
+        "apple": 3,
+        "bread": 1
+      },
+      "target_filter_classes": [
+        "apple",
+        "banana",
+        "bread"
+      ],
+      "active_target_instances": 3,
+      "active_goal_description": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 1
+      },
+      "coop_target_classes": [
+        "apple",
+        "banana"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "apple": 1,
+        "banana": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 5,
+      "source_episode_id": 5,
+      "ordinary_episode_index": 10,
+      "coop_episode_index": 11,
+      "scene": "5a",
+      "layout": "2_1",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 2,
+        "burger": 1,
+        "loaf_bread": 1
+      },
+      "excluded_in_container": {
+        "apple": 2,
+        "banana": 1,
+        "orange": 1
+      },
+      "target_filter_classes": [
+        "apple",
+        "banana",
+        "bread",
+        "burger"
+      ],
+      "active_target_instances": 5,
+      "active_goal_description": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 2,
+        "burger": 1
+      },
+      "coop_target_classes": [
+        "bread"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "bread": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 6,
+      "source_episode_id": 6,
+      "ordinary_episode_index": 12,
+      "coop_episode_index": 13,
+      "scene": "2a",
+      "layout": "0_0",
+      "task": "food",
+      "usable_after_container_filter": {
+        "banana": 1,
+        "bread": 1,
+        "loaf_bread": 3,
+        "orange": 1
+      },
+      "excluded_in_container": {
+        "bread": 1,
+        "loaf_bread": 1,
+        "orange": 2
+      },
+      "target_filter_classes": [
+        "banana",
+        "loaf_bread"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "banana": 1,
+        "loaf_bread": 3
+      },
+      "coop_target_classes": [
+        "banana"
+      ],
+      "coop_target_instances": 1,
+      "coop_goal_description": {
+        "banana": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 7,
+      "source_episode_id": 7,
+      "ordinary_episode_index": 14,
+      "coop_episode_index": 15,
+      "scene": "2a",
+      "layout": "0_1",
+      "task": "food",
+      "usable_after_container_filter": {
+        "banana": 3,
+        "bread": 1,
+        "burger": 2,
+        "orange": 1
+      },
+      "excluded_in_container": {
+        "apple": 2,
+        "bread": 1
+      },
+      "target_filter_classes": [
+        "banana",
+        "bread",
+        "orange"
+      ],
+      "active_target_instances": 5,
+      "active_goal_description": {
+        "banana": 3,
+        "bread": 1,
+        "orange": 1
+      },
+      "coop_target_classes": [
+        "bread",
+        "orange"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "bread": 1,
+        "orange": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 8,
+      "source_episode_id": 8,
+      "ordinary_episode_index": 16,
+      "coop_episode_index": 17,
+      "scene": "2a",
+      "layout": "1_0",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 1,
+        "burger": 2,
+        "loaf_bread": 1,
+        "orange": 1
+      },
+      "excluded_in_container": {
+        "apple": 1,
+        "orange": 2
+      },
+      "target_filter_classes": [
+        "apple",
+        "banana",
+        "bread",
+        "loaf_bread"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 1,
+        "loaf_bread": 1
+      },
+      "coop_target_classes": [
+        "apple",
+        "banana"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "apple": 1,
+        "banana": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 9,
+      "source_episode_id": 9,
+      "ordinary_episode_index": 18,
+      "coop_episode_index": 19,
+      "scene": "2a",
+      "layout": "1_1",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 4,
+        "bread": 2,
+        "burger": 1,
+        "loaf_bread": 1
+      },
+      "excluded_in_container": {
+        "apple": 2
+      },
+      "target_filter_classes": [
+        "apple",
+        "burger"
+      ],
+      "active_target_instances": 5,
+      "active_goal_description": {
+        "apple": 4,
+        "burger": 1
+      },
+      "coop_target_classes": [
+        "burger"
+      ],
+      "coop_target_instances": 1,
+      "coop_goal_description": {
+        "burger": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 10,
+      "source_episode_id": 10,
+      "ordinary_episode_index": 20,
+      "coop_episode_index": 21,
+      "scene": "2a",
+      "layout": "2_0",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 1,
+        "burger": 2,
+        "orange": 3
+      },
+      "excluded_in_container": {
+        "burger": 1,
+        "orange": 1
+      },
+      "target_filter_classes": [
+        "apple",
+        "banana",
+        "bread",
+        "orange"
+      ],
+      "active_target_instances": 6,
+      "active_goal_description": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 1,
+        "orange": 3
+      },
+      "coop_target_classes": [
+        "orange"
+      ],
+      "coop_target_instances": 3,
+      "coop_goal_description": {
+        "orange": 3
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 11,
+      "source_episode_id": 11,
+      "ordinary_episode_index": 22,
+      "coop_episode_index": 23,
+      "scene": "2a",
+      "layout": "2_1",
+      "task": "food",
+      "usable_after_container_filter": {
+        "apple": 2,
+        "banana": 1,
+        "bread": 1,
+        "loaf_bread": 2,
+        "orange": 1
+      },
+      "excluded_in_container": {
+        "apple": 1,
+        "banana": 1,
+        "bread": 1
+      },
+      "target_filter_classes": [
+        "apple",
+        "banana",
+        "bread"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "apple": 2,
+        "banana": 1,
+        "bread": 1
+      },
+      "coop_target_classes": [
+        "apple"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "apple": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 12,
+      "source_episode_id": 12,
+      "ordinary_episode_index": 24,
+      "coop_episode_index": 25,
+      "scene": "5a",
+      "layout": "0_0",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "iphone": 1,
+        "lighter": 1,
+        "mouse": 3,
+        "pen": 2,
+        "purse": 2
+      },
+      "excluded_in_container": {
+        "iphone": 1
+      },
+      "target_filter_classes": [
+        "iphone",
+        "pen"
+      ],
+      "active_target_instances": 3,
+      "active_goal_description": {
+        "iphone": 1,
+        "pen": 2
+      },
+      "coop_target_classes": [
+        "iphone",
+        "pen"
+      ],
+      "coop_target_instances": 3,
+      "coop_goal_description": {
+        "iphone": 1,
+        "pen": 2
+      },
+      "coop_all_targets": true
+    },
+    {
+      "matched_pair_id": 13,
+      "source_episode_id": 13,
+      "ordinary_episode_index": 26,
+      "coop_episode_index": 27,
+      "scene": "5a",
+      "layout": "0_1",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 2,
+        "iphone": 3,
+        "lighter": 1,
+        "mouse": 1,
+        "pen": 1,
+        "purse": 1
+      },
+      "excluded_in_container": {
+        "iphone": 1
+      },
+      "target_filter_classes": [
+        "lighter",
+        "mouse",
+        "pen",
+        "purse"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "lighter": 1,
+        "mouse": 1,
+        "pen": 1,
+        "purse": 1
+      },
+      "coop_target_classes": [
+        "lighter",
+        "mouse"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "lighter": 1,
+        "mouse": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 14,
+      "source_episode_id": 14,
+      "ordinary_episode_index": 28,
+      "coop_episode_index": 29,
+      "scene": "5a",
+      "layout": "1_0",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 1,
+        "iphone": 2,
+        "lighter": 2,
+        "mouse": 1,
+        "pen": 3
+      },
+      "excluded_in_container": {
+        "calculator": 1
+      },
+      "target_filter_classes": [
+        "calculator",
+        "iphone",
+        "lighter"
+      ],
+      "active_target_instances": 5,
+      "active_goal_description": {
+        "calculator": 1,
+        "iphone": 2,
+        "lighter": 2
+      },
+      "coop_target_classes": [
+        "iphone"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "iphone": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 15,
+      "source_episode_id": 15,
+      "ordinary_episode_index": 30,
+      "coop_episode_index": 31,
+      "scene": "5a",
+      "layout": "1_1",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 2,
+        "iphone": 5,
+        "lighter": 1,
+        "pen": 1
+      },
+      "excluded_in_container": {
+        "mouse": 1
+      },
+      "target_filter_classes": [
+        "calculator",
+        "lighter",
+        "pen"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "calculator": 2,
+        "lighter": 1,
+        "pen": 1
+      },
+      "coop_target_classes": [
+        "lighter"
+      ],
+      "coop_target_instances": 1,
+      "coop_goal_description": {
+        "lighter": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 16,
+      "source_episode_id": 16,
+      "ordinary_episode_index": 32,
+      "coop_episode_index": 33,
+      "scene": "5a",
+      "layout": "2_0",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "iphone": 2,
+        "lighter": 2,
+        "mouse": 1,
+        "pen": 2,
+        "purse": 1
+      },
+      "excluded_in_container": {
+        "calculator": 1,
+        "pen": 1
+      },
+      "target_filter_classes": [
+        "iphone",
+        "mouse"
+      ],
+      "active_target_instances": 3,
+      "active_goal_description": {
+        "iphone": 2,
+        "mouse": 1
+      },
+      "coop_target_classes": [
+        "iphone"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "iphone": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 17,
+      "source_episode_id": 17,
+      "ordinary_episode_index": 34,
+      "coop_episode_index": 35,
+      "scene": "5a",
+      "layout": "2_1",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "iphone": 2,
+        "lighter": 2,
+        "mouse": 2,
+        "pen": 1,
+        "purse": 2
+      },
+      "excluded_in_container": {
+        "calculator": 1
+      },
+      "target_filter_classes": [
+        "iphone",
+        "lighter",
+        "pen"
+      ],
+      "active_target_instances": 5,
+      "active_goal_description": {
+        "iphone": 2,
+        "lighter": 2,
+        "pen": 1
+      },
+      "coop_target_classes": [
+        "iphone"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "iphone": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 18,
+      "source_episode_id": 18,
+      "ordinary_episode_index": 36,
+      "coop_episode_index": 37,
+      "scene": "2a",
+      "layout": "0_0",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 1,
+        "iphone": 3,
+        "lighter": 1,
+        "mouse": 1,
+        "pen": 1
+      },
+      "excluded_in_container": {
+        "calculator": 1,
+        "mouse": 1,
+        "pen": 1
+      },
+      "target_filter_classes": [
+        "calculator",
+        "lighter",
+        "mouse",
+        "pen"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "calculator": 1,
+        "lighter": 1,
+        "mouse": 1,
+        "pen": 1
+      },
+      "coop_target_classes": [
+        "calculator"
+      ],
+      "coop_target_instances": 1,
+      "coop_goal_description": {
+        "calculator": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 19,
+      "source_episode_id": 19,
+      "ordinary_episode_index": 38,
+      "coop_episode_index": 39,
+      "scene": "2a",
+      "layout": "0_1",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 2,
+        "iphone": 2,
+        "lighter": 1,
+        "mouse": 1,
+        "pen": 3,
+        "purse": 1
+      },
+      "excluded_in_container": {},
+      "target_filter_classes": [
+        "calculator",
+        "iphone",
+        "lighter",
+        "mouse"
+      ],
+      "active_target_instances": 6,
+      "active_goal_description": {
+        "calculator": 2,
+        "iphone": 2,
+        "lighter": 1,
+        "mouse": 1
+      },
+      "coop_target_classes": [
+        "calculator",
+        "lighter"
+      ],
+      "coop_target_instances": 3,
+      "coop_goal_description": {
+        "calculator": 2,
+        "lighter": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 20,
+      "source_episode_id": 20,
+      "ordinary_episode_index": 40,
+      "coop_episode_index": 41,
+      "scene": "2a",
+      "layout": "1_0",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 2,
+        "iphone": 2,
+        "mouse": 1,
+        "purse": 2
+      },
+      "excluded_in_container": {
+        "calculator": 2,
+        "purse": 1
+      },
+      "target_filter_classes": [
+        "calculator",
+        "iphone"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "calculator": 2,
+        "iphone": 2
+      },
+      "coop_target_classes": [
+        "calculator"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "calculator": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 21,
+      "source_episode_id": 21,
+      "ordinary_episode_index": 42,
+      "coop_episode_index": 43,
+      "scene": "2a",
+      "layout": "1_1",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 2,
+        "lighter": 2,
+        "mouse": 3,
+        "pen": 1
+      },
+      "excluded_in_container": {
+        "lighter": 1,
+        "purse": 1
+      },
+      "target_filter_classes": [
+        "calculator",
+        "lighter",
+        "pen"
+      ],
+      "active_target_instances": 5,
+      "active_goal_description": {
+        "calculator": 2,
+        "lighter": 2,
+        "pen": 1
+      },
+      "coop_target_classes": [
+        "calculator"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "calculator": 2
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 22,
+      "source_episode_id": 22,
+      "ordinary_episode_index": 44,
+      "coop_episode_index": 45,
+      "scene": "2a",
+      "layout": "2_0",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 1,
+        "iphone": 1,
+        "lighter": 1,
+        "mouse": 1,
+        "pen": 2,
+        "purse": 2
+      },
+      "excluded_in_container": {
+        "mouse": 1,
+        "pen": 1
+      },
+      "target_filter_classes": [
+        "calculator",
+        "iphone",
+        "lighter"
+      ],
+      "active_target_instances": 3,
+      "active_goal_description": {
+        "calculator": 1,
+        "iphone": 1,
+        "lighter": 1
+      },
+      "coop_target_classes": [
+        "calculator"
+      ],
+      "coop_target_instances": 1,
+      "coop_goal_description": {
+        "calculator": 1
+      },
+      "coop_all_targets": false
+    },
+    {
+      "matched_pair_id": 23,
+      "source_episode_id": 23,
+      "ordinary_episode_index": 46,
+      "coop_episode_index": 47,
+      "scene": "2a",
+      "layout": "2_1",
+      "task": "stuff",
+      "usable_after_container_filter": {
+        "calculator": 1,
+        "iphone": 3,
+        "lighter": 1,
+        "pen": 2,
+        "purse": 1
+      },
+      "excluded_in_container": {
+        "mouse": 2
+      },
+      "target_filter_classes": [
+        "calculator",
+        "lighter",
+        "pen"
+      ],
+      "active_target_instances": 4,
+      "active_goal_description": {
+        "calculator": 1,
+        "lighter": 1,
+        "pen": 2
+      },
+      "coop_target_classes": [
+        "pen"
+      ],
+      "coop_target_instances": 2,
+      "coop_goal_description": {
+        "pen": 2
+      },
+      "coop_all_targets": false
+    }
+  ],
+  "all_coop_pair_ids": [
+    0,
+    12
+  ]
+}

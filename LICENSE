@@ -1,0 +1,62 @@
+# Licensing and attribution
+
+DPGP is developed from the C-WAH and TDW-MAT implementations distributed in
+[CoELA](https://github.com/UMass-Embodied-AGI/CoELA), associated with *Building
+Cooperative Embodied Agents Modularly with Large Language Models* by Hongxin
+Zhang, Weihua Du, Jiaming Shan, Qinhong Zhou, Yilun Du, Joshua B. Tenenbaum,
+Tianmin Shu, and Chuang Gan.
+
+DPGP modifies and extends those implementations with HiddenCoop, a benchmark
+for tasks with hidden cooperation requirements, and Discovery-Probability
+Graph Planning (DPGP), a method for coordinating exploration and transport.
+The modifications also include cooperative action interfaces, communication
+and embodied execution-time accounting, and experiment runners and evaluation.
+These modifications are contributions of the DPGP contributors; the original
+authors retain copyright in their work. Attribution does not imply endorsement
+by the upstream authors.
+
+## License scope
+
+The repository uses the component licenses below, subject to any separately
+identified third-party licenses and notices. This file identifies their scope;
+it does not replace or amend the referenced license texts.
+
+| Material | Applicable license |
+| --- | --- |
+| `cwah/`: the C-WAH-derived implementation and DPGP contributions in this component | Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0), provided in [cwah/LICENSE.md](cwah/LICENSE.md) |
+| `tdw_mat/`: the TDW-MAT-derived implementation and DPGP contributions in this component | MIT License, provided in [tdw_mat/LICENSE](tdw_mat/LICENSE) |
+| DPGP-authored documentation and figures outside the two components, including the root README and `assets/`, unless otherwise identified | CC BY-NC-SA 4.0, with the license text provided in [cwah/LICENSE.md](cwah/LICENSE.md) |
+
+The licenses in this table are granted for the DPGP contributions by their
+respective copyright holders. They do not grant rights in third-party material
+beyond the rights available under that material's applicable license.
+
+## Preserved upstream notices
+
+The C-WAH license text is retained from
+[CoELA's C-WAH license](https://github.com/UMass-Embodied-AGI/CoELA/blob/master/cwah/LICENSE.md).
+Redistribution and adaptation of that material must comply with CC BY-NC-SA 4.0,
+including its attribution, indication-of-changes, noncommercial, and share-alike
+conditions. The full [CC BY-NC-SA 4.0 legal code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
+governs those permissions and conditions.
+
+The MIT text in `tdw_mat/LICENSE` is retained from
+[CoELA's TDW-MAT license](https://github.com/UMass-Embodied-AGI/CoELA/blob/master/tdw_mat/LICENSE),
+including the original notice: **Copyright (c) 2023 Esther Alter**. Retain the
+copyright and permission notices as required by that license. DPGP contributions
+to this component are also made available under its MIT terms; this does not
+transfer ownership of the upstream work to the DPGP contributors.
+
+Any separately identified third-party material retains its own license and
+notices. Moving or copying material between directories does not change its
+license; in particular, C-WAH-derived material does not become MIT-licensed by
+being placed under `tdw_mat/`.
+
+## External dependencies and assets
+
+VirtualHome, TDW, their simulator executables, downloaded scene and model assets,
+and other external dependencies retain their own licenses and terms. Their
+download or use through DPGP does not relicense them under this file.
+
+The warranty disclaimers and limitations of liability in the applicable license
+texts remain in effect.

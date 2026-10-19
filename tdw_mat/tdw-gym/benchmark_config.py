@@ -1,0 +1,13 @@
+"""Fixed TDW Benchmark settings shared by the runner and experiment records."""
+
+COMMUNICATION_MODE = "exclusive_action"
+COOP_ACTION_INTERFACE = "implicit_pairing"
+COMMUNICATION_MAX_MESSAGE_CHARS = 12000
+COMMUNICATION_SEND_CHARS_PER_SECOND = 125000.0
+MINIMUM_STEP_FRAMES = 1
+NUMBER_OF_AGENTS = 2
+SCREEN_SIZE = 512
+GT_MASK = True
+PHYSICAL_ACTION_FRAME_RATE = 250.0
+COMMUNICATION_COUNT_UNIT = "unicode_codepoint"
+PHYSICAL_TIME_SOURCE = "tdw_simulation_frames"
